@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/txtBits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insira o valor em bits"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnConverter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Converter" />
+
+        <TextView
+            android:id="@+id/lblBytes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bytes: "
+            android:textSize="18sp"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:id="@+id/lblKB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KB: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lblMB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MB: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lblGB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GB: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lblTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TB: "
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
